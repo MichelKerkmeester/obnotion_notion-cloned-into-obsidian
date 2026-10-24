@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "skill_id": "local-obsidian",
+  "family": "sk-code",
+  "category": "plugin-evidence",
+  "edges": {
+    "depends_on": [],
+    "enhances": [],
+    "siblings": [
+      {
+        "target": "sk-code",
+        "weight": 0.5,
+        "context": "plugin design-system evidence applied by the generic code implementation workflow"
+      }
+    ],
+    "conflicts_with": [],
+    "prerequisite_for": []
+  },
+  "domains": [
+    "obsidian-plugin",
+    "note-database",
+    "plugin-api",
+    "css-class-grammar",
+    "screenshot-harness",
+    "verification-gate"
+  ],
+  "intent_signals": [
+    "obsidian api",
+    "itemview",
+    "workspaceleaf",
+    "manifest.json",
+    "esbuild.config.mjs",
+    "styles.css",
+    ".db-",
+    "vault",
+    "metadatacache",
+    "tfile",
+    "screenshots:verify",
+    "note database",
+    "obsidian plugin implementation",
+    "obsidian plugin code"
+  ],
+  "derived": {
+    "trigger_phrases": [
+      "obsidian plugin implementation",
+      "obsidian plugin code",
+      "note database plugin",
+      "obsidian plugin surface",
+      "db-* class grammar",
+      "obsidian",
+      "obsidian plugin",
+      "note-database"
+    ],
+    "key_topics": [
+      "obsidian-plugin",
+      "note-database",
+      "plugin-api",
+      "css-class-grammar",
+      "screenshot-harness",
+      "verification-gate"
+    ],
+    "intent_signals": [
+      "implement obsidian plugin view",
+      "debug plugin api boundary",
+      "verify screenshot harness",
+      "review db class grammar",
+      "run plugin source gates",
+      "add plugin stylesheet class"
+    ],
+    "key_files": [
+      ".skilled/skills/local-obsidian/SKILL.md",
+      ".skilled/skills/local-obsidian/README.md",
+      ".skilled/skills/local-obsidian/references/obsidian-plugin-api.md",
+      ".skilled/skills/local-obsidian/references/db-class-naming.md",
+      ".skilled/skills/local-obsidian/references/verification.md"
+    ],
+    "source_docs": [
+      "SKILL.md",
+      "README.md",
+      "references/obsidian-plugin-api.md",
+      "references/db-class-naming.md",
+      "references/verification.md"
+    ],
+    "entities": [
+      {"name": "local-obsidian", "kind": "skill", "path": ".skilled/skills/local-obsidian/SKILL.md", "source": "derived"},
+      {"name": "README", "kind": "reference", "path": ".skilled/skills/local-obsidian/README.md", "source": "derived"},
+      {"name": "obsidian_plugin_api", "kind": "reference", "path": ".skilled/skills/local-obsidian/references/obsidian-plugin-api.md", "source": "derived"},
+      {"name": "db_class_naming", "kind": "reference", "path": ".skilled/skills/local-obsidian/references/db-class-naming.md", "source": "derived"},
+      {"name": "verification", "kind": "reference", "path": ".skilled/skills/local-obsidian/references/verification.md", "source": "derived"}
+    ],
+    "causal_summary": "Design-system and source-convention evidence for the Note Database Obsidian plugin, applied when a task works on that plugin tree.",
+    "created_at": "2026-10-23T00:00:00Z",
+    "last_updated_at": "2026-10-23T00:00:00Z",
+    "sanitizer_version": "sanitizeSkillLabel:v2"
+  }
+}
